@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 400px;
+    background-color: rgb(189, 184, 184);
+}
+h1 {
+    margin: 10px 10px;
+}
+hr {
+    margin-bottom: 50px;
+}
+.tarea {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 95%;
+    height: 50px;
+}
+#texto {
+    width: 70%;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10px;
+} 
+#agregar {
+    width: 23%;
+    background-color: rgb(4, 187, 4);
+    color: white;
+    height: 40px;
+    border-color:rgb(4, 187, 4) ;
+    border-radius: 5px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.totales {
+    
+    width: 35%;
+}
+.listas {
+    display: flex; 
+    flex-direction: column;
+    width: 55%;
+}
+.titular {
+    display: flex;
+    flex-direction: row;
+}
+.tituloId {
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex-basis: 15%;
+}
+.tituloTarea {
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex-basis: 50%;
+}
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.id {
+    flex-basis: 15%;
+}
+.listaTarea {
+    flex-basis: 50%;
+}
+.check {
+    flex-basis: 20%;
+    display: flex;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+    
+}
+.check input {
+    width: 18px;
+    height: 18px;
+}
+.btn button {
+    color: red;
+    border: none;
+    background-color: rgb(189, 184, 184);
+    font-size: 1.2rem;
+}
